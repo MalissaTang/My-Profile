@@ -11,18 +11,18 @@
 }
 .container{
   margin-right: 100px;
-  margin-left: 100px
+  margin-left: 100px;
 }
 .logo{
   margin-top:30px;
-  width:100px
+  width:100px;
 }
 .header-text{
   max-width: 350px;
-  margin-top: 140px
+  margin-top: 140px;
 }
 h1{
-  font-size: 20px
+  font-size: 20px;
 }
 .square{
   height: 12px;
