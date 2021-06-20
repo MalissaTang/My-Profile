@@ -5,8 +5,8 @@
 }
 #header{
   height:60vh;
-  background-image: url(images/me.jpg);
-  background-position: left;
+  background-image: url(Images/me.jpg);
+  background-position: right;
   background-size: cover;
 }
 .container{
