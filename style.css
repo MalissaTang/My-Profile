@@ -1,10 +1,10 @@
 *{
-  margin: : 0;
+  margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 #header{
-  height:60vh;
+  height: 100vh;
   background-image: url(Images/me.jpg);
   background-position: center;
   background-size: cover;
@@ -13,31 +13,30 @@
   margin-right: 100px;
   margin-left: 100px;
 }
-.logo{
-  margin-top:30px;
-  width:100px;
+.profileme{
+  margin-top: 30px;
+  width: 100px;
 }
 .header-text{
   max-width: 350px;
   margin-top: 140px;
 }
 h1{
-  font-size: 20px;
+  font-size: 34px;
 }
 .square{
-  height: 12px;
+  height:12px;
   width: 12px;
   display: inline-block;
-  background: #ADD8E6;
-  margin: 15px 0;   
+  background: #f67c92;
+  margin: 15px 0;
 }
-.common-btn{
+.btn{
   padding: 18px 40px;
   background: transparent;
   outline: none;
-  border: 2px solid #ADD8E6;
+  border: 2px solid #f67c92;
   font-weight: bold;
-  cursor: pointer;
 }
 p{
   font-size: 15px;
@@ -46,5 +45,102 @@ p{
 }
 .header-text button{
   margin-top: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
+}
+#sideNav{
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  background: #f67c92;
+  z-index: 2;
+  transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+  nav ul li{
+    text-decoration: none;
+    color: #fff;
+}
+#closebtn{
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2px;
+  cursor: pointer;
+}
+
+
+    /*----interest----*/
+
+#interest, #ProjectID{
+  padding: 100px 0;
+  display; flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.interest-left-col{
+  flex-basis: 50%
+}
+.interest-left-col img{
+  width: 100%;
+}
+.interest-right-col{
+  flex-basis: 50%;
+  text-align: right; 
+}
+.interest-text{
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+/*----Personal Profile---*/
+
+#PersonalPro{
+  padding: 50px;
+  padding-bottom: 50px;
+}
+.PersonalPro-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}  
+.PersonalPro-col{
+  flex-basis: 25%;
+  text-align: center;
+}
+.PersonalPro-col img{
+  width: 200px
+}
+.PersonalPro h4{
+  margin-bottom: 15px;
+  font-size: 250px;
+  font-weight: 400px;
+}
+
+/*---Ideal Job---*/
+
+#Idealjob{
+  padding: 100px 0;
+}
+.Idealjob-row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Idealjob-right-col{
+  flex-basis: 50%;
+}
+.Idealjob-right-col img{
+  width: 100%;
+}
+.Idealjob-left-col{
+  flex-basis: 50%;
 }
