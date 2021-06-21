@@ -5,8 +5,8 @@
 }
 #header{
   height: 50vh;
-    background-position: left: url(images/background.png);
-    background-size: cover;
+   background-image: left: url(images/background.png);
+   background-size: cover;
 }
 .container{
   margin-right: 100px;
