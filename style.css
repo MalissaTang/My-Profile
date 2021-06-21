@@ -5,7 +5,8 @@
 }
 #header{
   height: 50vh;
-   background-image: left: url(images/background.png);
+   background-image: url(images/background.png);
+   background-poistion: centre;
    background-size: cover;
 }
 .container{
