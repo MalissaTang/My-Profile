@@ -6,7 +6,7 @@
 #header{
   height: 100vh;
   background-image: url(Images/me.jpg);
-  background-position: center;
+  background-position: left;
   background-size: cover;
 }
 .container{
