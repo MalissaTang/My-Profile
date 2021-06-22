@@ -107,7 +107,7 @@ nav ul li{
   padding-bottom: 50px;
 }
 .PersonalPro-row{
-  width: 80%;
+  width: 50%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -130,7 +130,7 @@ nav ul li{
 /*---Ideal Job---*/
 
 #Idealjob{
-  padding: 50px 0;
+  padding: 200px 0;
 }
 .Idealjob-row{
   display: flex;
